@@ -10,46 +10,106 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&family=Poppins:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href=".//assets/images/title-icon.webp" type="image/png" />
     <link rel="stylesheet" href="styles.css" />
     <title>Table</title>
   </head>
   <body>
     <div class="container">
-      <h1>Aashutosh Lekhak</h1>
-      <h2>Group A</h2>
-      <p>Roll no: 1</p>
-      <table>
-        <thead>
-          <tr>
-            <th>SN</th>
-            <th>Assignment Title</th>
-            <th>Category</th>
-            <th>Code</th>
-            <th>Demo</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Assignment 1</td>
-            <td>HTML CSS</td>
-            <td>
-              <a
-                href="https://github.com/aashutoshlekhak/Leapfrog-Fellowship-Assignments/tree/main/assignment-1"
-                >Code</a
-              >
-            </td>
-            <td>
-              <a
-                href="https://aashutoshlekhak.github.io/Leapfrog-Fellowship-Assignments/assignment-1/"
-                >Live Website</a
-              >
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div id="particles-js"></div>
+      <div class="table">
+        <div class="hero-section">
+          <div class="user-info">
+            <p class="badge-yellow-roll-no">Roll no: 1</p>
+            <h2 class="badge-yellow-roll-no">Group A</h2>
+            <h1 class="badge-yellow-roll-no">Aashutosh Lekhak</h1>
+          </div>
+          <div class="user-photo-div">
+            <img
+              class="user-photo"
+              src=".//assets/images/profile-image.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="table-content">
+          <table>
+            <thead>
+              <tr>
+                <th>S.N</th>
+                <th>Assignment</th>
+                <th>Technology</th>
+                <th>Code</th>
+                <th>Live Website</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Design Assignment 1</td>
+                <td>
+                  <span class="badge badge-red">HTML</span>
+                  <span class="badge badge-blue">CSS</span>
+                </td>
+                <td>
+                  <a
+                    href="https://github.com/aashutoshlekhak/Leapfrog-Fellowship-Assignments/tree/main/assignment-1"
+                    class="btn btn-black"
+                    target="_blank"
+                    ><i class="fa-brands fa-github"></i> Code</a
+                  >
+                </td>
+                <td>
+                  <a
+                    href="https://aashutoshlekhak.github.io/Leapfrog-Fellowship-Assignments/assignment-1/"
+                    class="btn btn-green"
+                    target="_blank"
+                    >Live Demo</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Assignment 1</td>
+                <td>HTML CSS</td>
+                <td>
+                  <a
+                    href="https://github.com/aashutoshlekhak/Leapfrog-Fellowship-Assignments/tree/main/assignment-1"
+                    >Code</a
+                  >
+                </td>
+                <td>
+                  <a
+                    href="https://aashutoshlekhak.github.io/Leapfrog-Fellowship-Assignments/assignment-1/"
+                    >Live Website</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
 
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src=".//animation/animation.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
