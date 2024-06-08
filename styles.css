@@ -203,7 +203,9 @@ tr:nth-child(odd) {
 .badge-red {
   background-color: #ff6b6b;
 }
-
+.badge-pink {
+  background-color: #cf649b;
+}
 .badge-blue {
   background-color: #5a9ef8;
 }
