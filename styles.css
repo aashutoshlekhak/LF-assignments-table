@@ -38,7 +38,6 @@ h2 {
   top: 10vh;
   min-height: 80vh;
   bottom: 10vh;
-  overflow-y: scroll;
   padding-bottom: 0px;
   border-collapse: collapse;
   border-spacing: 0;
@@ -48,11 +47,13 @@ h2 {
   align-items: center;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px 10px 0 0;
 }
 .hero-section {
   opacity: 1;
   width: 100%;
   padding: 15px 20px;
+  border-radius: 10px 10px 0 0;
 
   background: linear-gradient(
     109.6deg,
@@ -134,7 +135,6 @@ h2 {
 
 .table-content {
   width: 100%;
-  overflow-x: scroll;
 }
 table {
   width: 100%;
